@@ -1,3 +1,7 @@
 steps:
-  - name: "ubuntu"
-    args: ["bash", "-c", "echo hello world"]
+  - name: ubuntu
+    args:
+      - echo
+      - '${_GIT_REPO}'
+substitutions:
+  _GIT_REPO: $(body.project.git_http_url)
