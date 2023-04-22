@@ -4,4 +4,4 @@ steps:
       - echo
       - '${_GIT_REPO}'
 substitutions:
-  _GIT_REPO: "Hi"
+  _GIT_REPO: $REPO_NAME
