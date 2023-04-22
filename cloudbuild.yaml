@@ -3,7 +3,16 @@ steps:
     args:
       - echo
       - '${_GIT_REPO}'
+  - name: maven:3-jdk-8
+    entrypoint: mvn
+    args: [ "package", "-Dmaven.test.skip=true" ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'gcr.io/optimal-moon-374403/pathwaytipsorg/cloudrun-java:$SHORT_SHA', "--build-arg=JAR_FILE=target/mycoolapp-0.0.1-SNAPSHOT.jar", "." ]
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'push', 'gcr.io/optimal-moon-374403/pathwaytipsorg/cloudrun-java:$SHORT_SHA' ]
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: [ 'run', 'deploy', 'cloudrun-java-demo', '--region=us-central1', '--allow-unauthenticated', '--image=gcr.io/optimal-moon-374403/pathwaytipsorg/cloudrun-java:$SHORT_SHA' ]
 substitutions:
-  _GIT_REPO: $(push.push_id)
+  _GIT_REPO: "Repo Name"
 options:
   dynamic_substitutions: true
