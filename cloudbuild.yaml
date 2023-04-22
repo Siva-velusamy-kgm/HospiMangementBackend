@@ -1,3 +1,3 @@
 steps:
   - name: "ubuntu"
-    args: ["bash", "-c", "echo hello world"]
+    args: ["bash", "-c", "echo hello world ${FULL_NAME}"]
