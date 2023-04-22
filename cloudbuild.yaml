@@ -4,6 +4,6 @@ steps:
       - echo
       - '${_GIT_REPO}'
 substitutions:
-  _GIT_REPO: $(body.repository.id)
+  _GIT_REPO: $(push.push_id)
 options:
   dynamic_substitutions: true
