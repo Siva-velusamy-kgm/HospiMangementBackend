@@ -1,6 +1,3 @@
 steps:
   - name: "ubuntu"
-    args:
-      - bash
-      - -s
-      - echo "Hello World"
+    args: ["bash", "-c", "echo hello world"]
