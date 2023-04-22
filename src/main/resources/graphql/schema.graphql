@@ -1,0 +1,15 @@
+schema {
+    query: Query
+}
+type Query
+{
+    getDoctorDetail(id:Int):DoctorDetails
+    getDoctorDetails:[DoctorDetails]
+}
+type DoctorDetails
+{
+    id : Int
+    name : String
+    age : Int
+    experience : Int
+}

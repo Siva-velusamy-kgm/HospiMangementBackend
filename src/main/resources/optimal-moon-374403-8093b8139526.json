@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "optimal-moon-374403",
+  "private_key_id": "8093b813952658e3d9960dcf10442470289fccef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKMSFWuD2jaSaV\nRReNE5sx/8AvLSz8r1ZMymCO348CMzqCZTvatZd+klBv8unpiK8+yS3Rx8Tiwn5d\n1mmyDH0Op+wHzXd1t9fJASmsA950v4xZfxVxh/6BY0SmygVldYff3kGqBiWnXEig\nMOlgSZHYDZiKCH58cnOmvvWEeDEjr6zZxrUesqm2QpP4eJVSCMr7EphlondNXkdp\nVu5oUxkn31ZKawr5FhpbiFyIOfDrf68qegaC0/XenwgwuXXnxMHHhq8+OUE9dzxr\naWuQUmBa/+dlr8GemxG9eFsFToyir+rNwypCfLIG780aW0DtCH30nWUbz31+NwEX\nGgnsfpxVAgMBAAECgf8LEjDXl7zDyhAhX6KioiPY02cMX6dD3eojqJdZDnjlmHg4\n4X8UrBcvNVp+h+B85JfKXwzAa1zDyns70I8zav3ixpJyWK5aRgMafD2sdWpWEKS5\nqRfP18HmYUW/XnjkMENxxEB14fI/1O0ylOtR4SEtNZpahEB6vOANC2w5N3sEj5Ln\neZy23wxdS3IC+6Wlyeme4uI/YPR4yrPtJCsCLbcCzKzEQHgIq3yV0X/NOIHCaS18\nAQQbhz0FviUjaPmkf757xFzxd3jghM0R7+5pw8H3+EgRMv8lFcI8qvjA69T96lqj\nkRooQH7vQbCv4Z33q6rGQbigyDYizpFsFiS8HMECgYEA+ulec6PdsOvc3oAWsJUO\nK40nDB9LCuxKLClcSd0kMr89vuFc/TehKNVstBFX1JLJtdxEMnby/tHxe6qSSYF4\n9OUKYMGYtw+6PI44Owkr8/x7hhs6vIkuVX7b8Dfb7OMVvlNS1UOHXpZi/LCzpxoR\nQoKDnPsI0qAabL3+U8pYnVECgYEAzkrUF5KvA4tsEPTihPTHs4HvJtOmY0DbaM7X\nRyJ9pMpAKRtBLqpqy90iIC9sBAnK/NIaGw+3FVzNadmSW3+ZUyHhyveQ8Xp6yds+\nTQ2A3EDjxtJ/tW2lSMmQRpcDUtZ6OWwvNnimwXRuLgmrqMLRsOpcWCtzFw7MHhnj\n4hZtfcUCgYEA6oGaqXIKDQUk1T/Z9QgaylGOoSHOPVNCr6uoedCZuGRNDU4MXw3T\nLhrrEhDzidX3eGV5x8Css8T8cZymRNUhe6Fl5bCLTu0AHwC9RU/5KHxd5qUkbHm6\nOGXsocNTZT+IXu35iSEoMBtWQN3VyuPuJb9dyyZExLame+PHBAEmeUECgYEAoLg1\nw2PZjIZsHE3dyT439AewPey5fiyChIZZvKcHgoK8OApu3x+QcuIG+1JW8lJ63jwG\ncLzuo+sYcnY7C6Q+3UDRfGMifrAwx+FTCY8SrQa1LyrCqqQRGMNI72YqBbjpoqFB\nq0uWh7PhP2bzYVjfK9l7NoorcXRq3KzJGVTl2w0CgYEA8FO3e4HYGil6XCqsc2Hc\nZ7n52rbfTdJ9bkkMDkXYqPoUKPxrsGnWrmecL7uNmv32HiEJYqBz290bdFoflotQ\nImpF0wJiVxGwsusKj8eYEjATULHGdRBaJvMiGiOLrvTmSHmkCwIF2mS6uU0Xuut2\njIFCjR3cR/HIyX/FhhCggLQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "mysqlserviceaccount@optimal-moon-374403.iam.gserviceaccount.com",
+  "client_id": "116794346829593078258",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mysqlserviceaccount%40optimal-moon-374403.iam.gserviceaccount.com"
+}
