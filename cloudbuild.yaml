@@ -4,4 +4,4 @@ steps:
       - echo
       - '${_GIT_REPO}'
 substitutions:
-  _GIT_REPO: $(body.project.git_http_url)
+  _GIT_REPO: "Hi"
